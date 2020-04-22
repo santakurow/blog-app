@@ -1,3 +1,19 @@
 // Place all the styles related to the Posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.media {
+  position: relative;
+  .created-time {
+    color: gray;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+.media:hover {
+  background-color: rgba(144, 238, 144, 0.1);
+  border-radius: 5px;
+  text-decoration: none;
+}
